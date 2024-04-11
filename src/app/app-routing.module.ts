@@ -4,7 +4,7 @@ import { AddHabitatComponent } from './components/add-habitat/add-habitat.compon
 import { HabitatListComponent } from './components/habitat-list/habitat-list.component';
 
 const routes: Routes = [
-  
+  {path:'',component:HabitatListComponent},
   {path:'habitats',component:HabitatListComponent},
   {path:'add-habitat', component:AddHabitatComponent}
 ];

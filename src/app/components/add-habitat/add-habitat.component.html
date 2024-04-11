@@ -1,10 +1,10 @@
 <form (ngSubmit)="addHabitat()">
-  <label for="numero">Numero</label>
-  <input type="number" id="numero" [(ngModel)]="newHabitat.id" />
+  <label for="id">Numero</label>
+  <input type="number" id="id" name="id" [(ngModel)]="newHabitat.id" />
   <label for="nombre">Nombre</label>
   <input type="text" name="nombre" id="nombre" [(ngModel)]="newHabitat.nombre">
   <label for="descripcion">Descripción</label>
-  <input type="text"  id="descripcion" [(ngModel)]="newHabitat.descripcion">
+  <input type="text"  id="descripcion" name="descripcion" [(ngModel)]="newHabitat.descripcion">
   <button type="submit">
     Guardar
   </button>
